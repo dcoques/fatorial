@@ -3,6 +3,6 @@ public class TesteFatorial {
 		
 		Fatorial fatorial = new Fatorial();
 		
-		System.out.println(fatorial.calcularFatorial(5)));
+		System.out.println(fatorial.calcularFatorial(5));
 	}
 }
