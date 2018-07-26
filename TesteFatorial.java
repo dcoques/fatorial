@@ -1,10 +1,9 @@
 public class TesteFatorial {
 	public static void main(String[] args) {
 		
-		Fatorial fatorial = new Fatorial();
+		Fatorial f = new Fatorial();
 		
-		int resultado = fatorial.calcularFatorial(0);
-		
-		System.out.println(resultado);
+		System.out.println(f.calcularFatorial(0));
+		System.out.println(f.calcularFatorial(1));
 	}
 }
